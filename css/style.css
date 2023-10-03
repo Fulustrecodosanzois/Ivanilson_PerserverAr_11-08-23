@@ -1,0 +1,45 @@
+.borda {
+    border: 1px solid black;
+}
+
+.borda2 {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.borda3 {
+    border: 1px solid rgb(0, 167, 31);
+}
+
+.borda4 {
+    border: 1px solid rgb(48, 29, 151);
+}
+
+
+
+
+/* ------------ STYLE */
+
+.fundo_padrao {
+    background-color: #241468;
+}
+.fundo_form {
+    background-color: #504099;
+}
+
+.fundo_nav {
+    background-color: #ffffff;
+}
+
+.iconeG {
+    font-size: 70px;
+}
+
+.linha {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, transparent, #ffffff, transparent);
+}
+
+.fonte {
+    color: #504099;
+}
