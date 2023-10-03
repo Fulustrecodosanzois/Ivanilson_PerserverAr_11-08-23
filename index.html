@@ -93,24 +93,31 @@
     <section class="d-flex justify-content-center mb-5 shadow">
       <div class="col-10 col-md-5">
         <h2 class="my-3">Contato</h2>
-        <form class="form-control fundo_form p-3">
+        <form class="form-control fundo_form p-3" action="mailto:luciano_jet@hotmail.com">
           <div class="mb-3">
             <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <input type="email" class="form-control nome" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput">Nome</label>
             </div>
           </div>
           <div class="mb-3">
             <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <input type="email" class="form-control telefone" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput">Telefone</label>
             </div>
           </div>
+          <select class="form-select my-3" aria-label="Default select example">
+            <option selected>Qual serviço desejado?</option>
+            <option value="1">Instalação</option>
+            <option value="2">Limpeza</option>
+            <option value="3">Reparo</option>
+            <option value="4">Manutenção</option>
+          </select>
           <div class="form-floating">
-            <textarea class="form-control p-5" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Informe Aqui, Como Posso Ajudar?</label>
+            <textarea class="form-control mensagem p-5" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Informe Aqui. Como Posso Ajudar?</label>
           </div>
-          <a href="" class="btn fundo_nav mt-4 px-4 fw-bold fonte shadow">Enviar</a>
+          <a href="" class="btn fundo_nav mt-4 px-4 fw-bold fonte shadow enviar-btn">Enviar</a>
         </form>
       </div>
     </section>
@@ -151,6 +158,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/tel.js"></script>
 </body>
 
 </html>
