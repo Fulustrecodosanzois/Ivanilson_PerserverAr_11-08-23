@@ -43,3 +43,14 @@
 .fonte {
     color: #504099;
 }
+
+.navbar {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><circle cx="8" cy="8" r="8" fill="%23ffffff"/><circle cx="24" cy="24" r="8" fill="%23ffffff"/><circle cx="40" cy="8" r="8" fill="%23ffffff"/><circle cx="56" cy="24" r="8" fill="%23ffffff"/><circle cx="8" cy="40" r="8" fill="%23ffffff"/><circle cx="24" cy="56" r="8" fill="%23ffffff"/><circle cx="40" cy="40" r="8" fill="%23ffffff"/><circle cx="56" cy="56" r="8" fill="%23ffffff"/><circle cx="8" cy="24" r="8" fill="%23ffffff"/><circle cx="24" cy="8" r="8" fill="%23ffffff"/><circle cx="40" cy="24" r="8" fill="%23ffffff"/><circle cx="56" cy="40" r="8" fill="%23ffffff"/></svg>');
+    background-size: 18px 18px;
+}
+
+
+.navbar-content {
+    padding: 10px;
+    color: #fff; /* Cor do texto */
+}

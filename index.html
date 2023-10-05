@@ -54,19 +54,12 @@
 
   <!------------------------------------------------------ NAVBAR -->
 
-  <header class="mb-3 pb-2 fundo_nav">
-    <nav class="container navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand text-primary fw-bolder" href="#">PerseverAr</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="text-center mt-4">
-            <button class="btn btn-outline-primary px-5" type="submit">Contato</button>
-          </div>
-        </div>
+  <header class="">
+    <nav class="navbar py-4 bg-light text-center flex-column shadow">
+      <div class="navbar-content">
+        <a href="#" class="mx-auto">
+          <img src="image/Logo-Perseverar.png" alt="" class="img-fluid shadow" width="160px">
+        </a>
       </div>
     </nav>
   </header>
@@ -74,54 +67,57 @@
   <!-------------------------------------------------------- INFORME -->
 
   <main class="mt-4 lead text-white text-center lead">
-    <i class="fa-solid fa-screwdriver-wrench iconeG mt-2" style="color: #ffffff;"></i>
-    <h3 class="my-5">INSTALAÇÃO E CONSERTO DE AR CONDICIONADO.</h3>
+    <section class="flex-column d-flex justify-content-center align-content-center mx-4">
+      <div>
+        <i class="fa-solid fa-screwdriver-wrench iconeG mt-2" style="color: #ffffff;"></i>
+        <h3 class="my-5">INSTALAÇÃO E CONSERTO DE AR CONDICIONADO.</h3>
 
+        <hr class="linha my-5">
 
-    <hr class="linha my-5">
+        <i class="fa-solid fa-briefcase iconeG" style="color: #ffffff;"></i>
+        <h5 class="mt-3">São Mais de XX Anos de Experiência.</h5>
 
-    <i class="fa-solid fa-briefcase iconeG" style="color: #ffffff;"></i>
-    <h5 class="mt-3">São Mais de XX Anos de Experiência.</h5>
+        <hr class="linha my-5">
 
-    <hr class="linha my-5">
+        <i class="fa-solid fa-face-laugh-beam iconeG " style="color: #ffffff;"></i>
+        <h5 class="mt-3 mb-5">Centenas de Clientes <br><strong>Satisfeitos!</strong> </h5>
 
-    <i class="fa-solid fa-face-laugh-beam iconeG " style="color: #ffffff;"></i>
-    <h5 class="mt-3 mb-5">Centenas de Clientes <br><strong>Satisfeitos!</strong> </h5>
+        <hr class="linha my-3">
 
-    <hr class="linha my-3">
-
-    <section class="d-flex justify-content-center mb-5 shadow">
-      <div class="col-10 col-md-5">
-        <h2 class="my-3">Contato</h2>
-        <form class="form-control fundo_form p-3" action="mailto:luciano_jet@hotmail.com">
-          <div class="mb-3">
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control nome" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Nome</label>
-            </div>
+        <section class="d-flex justify-content-center mb-5 shadow">
+          <div class="col-10 col-md-5">
+            <h2 class="mt-3 mb-5">Contato</h2>
+            <form class="form-control fundo_form p-3" action="mailto:luciano_jet@hotmail.com">
+              <div class="mb-3">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control nome" id="floatingInput telefone" placeholder="name@example.com" max>
+                  <label for="floatingInput">Nome</label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control telefone" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Telefone</label>
+                </div>
+              </div>
+              <select class="form-select my-3" aria-label="Default select example">
+                <option selected>Qual serviço desejado?</option>
+                <option value="1">Instalação</option>
+                <option value="2">Limpeza</option>
+                <option value="3">Reparo</option>
+                <option value="4">Manutenção</option>
+              </select>
+              <div class="form-floating">
+                <textarea class="form-control mensagem p-5" placeholder="Leave a comment here"
+                  id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Como Posso Ajudar?</label>
+              </div>
+              <a href="" class="btn fundo_nav mt-4 px-4 fw-bold fonte shadow enviar-btn">Enviar</a>
+            </form>
           </div>
-          <div class="mb-3">
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control telefone" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Telefone</label>
-            </div>
-          </div>
-          <select class="form-select my-3" aria-label="Default select example">
-            <option selected>Qual serviço desejado?</option>
-            <option value="1">Instalação</option>
-            <option value="2">Limpeza</option>
-            <option value="3">Reparo</option>
-            <option value="4">Manutenção</option>
-          </select>
-          <div class="form-floating">
-            <textarea class="form-control mensagem p-5" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Informe Aqui. Como Posso Ajudar?</label>
-          </div>
-          <a href="" class="btn fundo_nav mt-4 px-4 fw-bold fonte shadow enviar-btn">Enviar</a>
-        </form>
+        </section>
       </div>
     </section>
-
 
 
 
@@ -129,10 +125,13 @@
   </main>
 
 
-  <footer class="container-fluid p-3 border-top fundo_padrao">
+  <!-- ------------------------------------------ RODAPÉ -->
+
+  <footer class="container-fluid fundo_padrao p-2 text-center mt-4">
+
     <section class="mx-lg-5 d-flex justify-content-lg-between justify-content-center gap-lg-0 gap-3 flex-wrap">
-      <div class="">
-        <small class="text-white text-center mt-2 mx-3">Todos os direitos reservados &copy; 2023</small>
+      <div class="mt-2">
+        <small class="text-white text-center mx-3">Todos os direitos reservados &copy; 2023</small>
       </div>
 
       <!---------------------------------------------- ÍCONES REDES SOCIAIS -->
@@ -150,7 +149,40 @@
             class="fa-brands fa-facebook face"></i></a>
       </div>
     </section>
+
+
+
+    <button type="button" class="btn fundo_verde2 rounded text-white shadow-sm my-3" data-bs-toggle="modal"
+      data-bs-target="#exampleModal">
+      SOBRE OS DESENVOLVEDORES</button>
+
   </footer>
+
+  <!--------------------------------------------------- Modal -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Desenvolvedores</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>Monhang Tech</td>
+                <td>monhangtech@gmail.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
