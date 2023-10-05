@@ -23,12 +23,15 @@ document.addEventListener('DOMContentLoaded', function () {
         formattedTelefone += '-' + cleanedValue.substring(7, 11);
       }
     }
+    console.log(cleanedValue.length)
 
     return formattedTelefone;
   }
+
   telefoneInput.addEventListener('input', function () {
     const formattedValue = formatarTelefone(this.value);
     this.value = formattedValue;
+    console.log(this.value)
   });
   telefoneInput.addEventListener('input', function () {
     if (this.value === '(__) _ ____-____') {
