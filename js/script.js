@@ -29,16 +29,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  function enviarWhatsApp() {
-    const servicoSelecionado = document.getElementById("escolha").value;
-    const numeroDestino = 'SEU_NUMERO_DE_TELEFONE'; // Substitua pelo seu número de telefone com o código do país (exemplo: +5511999999999)
+//   function enviarWhatsApp() {
+//     const servicoSelecionado = document.getElementById("escolha").value;
+//     const numeroDestino = 'SEU_NUMERO_DE_TELEFONE'; // Substitua pelo seu número de telefone com o código do país (exemplo: +5511999999999)
     
-    // Monta a mensagem com a escolha do serviço
-    const mensagem = `Olá, gostaria de agendar um serviço de ${servicoSelecionado}.`;
+//     // Monta a mensagem com a escolha do serviço
+//     const mensagem = `Olá, gostaria de agendar um serviço de ${servicoSelecionado}.`;
 
-    // Cria o link do WhatsApp com a mensagem
-    const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroDestino}&text=${encodeURIComponent(mensagem)}`;
+//     // Cria o link do WhatsApp com a mensagem
+//     const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroDestino}&text=${encodeURIComponent(mensagem)}`;
 
-    // Abre o link no WhatsApp
-    window.open(linkWhatsApp);
-}
+//     // Abre o link no WhatsApp
+//     window.open(linkWhatsApp);
+// }
