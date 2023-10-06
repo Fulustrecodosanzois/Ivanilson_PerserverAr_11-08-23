@@ -19,9 +19,14 @@ document.addEventListener("DOMContentLoaded", function () {
   
       // URL do WhatsApp com a mensagem formatada
       const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensagemFormatada}`;
-      alert("Sua mensagem já esta PRONTA. somente confirme o envio da mensagem no WhatsApp.");
-    
-      // Abre uma nova aba ou janela do navegador para enviar a mensagem via WhatsApp
+
+      const alertaEnvio = document.createElement("div");
+      alertaEnvio.style.fontSize = "18px"; // Tamanho da fonte
+      alertaEnvio.textContent = "Mensagem enviada com sucesso!";
+      alert(alertaEnvio.textContent);
+
+      // alert("Sua mensagem já esta PRONTA. somente confirme o envio da mensagem no WhatsApp.");
+  
       window.open(urlWhatsApp);
 
       
