@@ -16,22 +16,19 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       if (cleanedValue.length >= 4) {
-        formattedTelefone += ' ' + cleanedValue.substring(3, 7);
+        formattedTelefone += '' + cleanedValue.substring(3, 7);
       }
 
       if (cleanedValue.length >= 8) {
         formattedTelefone += '-' + cleanedValue.substring(7, 11);
       }
     }
-    console.log(cleanedValue.length)
 
     return formattedTelefone;
   }
-
   telefoneInput.addEventListener('input', function () {
     const formattedValue = formatarTelefone(this.value);
     this.value = formattedValue;
-    console.log(this.value)
   });
   telefoneInput.addEventListener('input', function () {
     if (this.value === '(__) _ ____-____') {
