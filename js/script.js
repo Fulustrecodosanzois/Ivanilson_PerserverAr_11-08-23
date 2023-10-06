@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const escolha = document.querySelector(".escolha").value
   
       // Formatar a mensagem para envio no WhatsApp
-      const mensagemFormatada = `Seja Bem Vindo(a)!%0A%0A**Informações do Contato**%0A%0A*Nome:* ${nome}%0A%0A*Telefone:* ${telefone}%0A%0A*Tipo de Serviço:* ${escolha}0A%0A*Mensagem:*%0A%0A${mensagem}`;
+      const mensagemFormatada = `Seja Bem Vindo(a)!%0A%0A**Informações do Contato**%0A%0A*Nome:* ${nome}%0A%0A*Telefone:* ${telefone}%0A%0A*Tipo de Serviço:* ${escolha}%0A%0A*Mensagem:*%0A%0A${mensagem}`;
   
       // Número de telefone para o qual você deseja enviar a mensagem via WhatsApp
       const numeroWhatsApp = "5598987189453";
