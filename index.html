@@ -69,8 +69,9 @@
   <main class="mt-4 lead text-white text-center lead">
     <section class="flex-column d-flex justify-content-center align-content-center mx-4">
       <div>
-        <i class="fa-solid fa-screwdriver-wrench iconeG mt-2" style="color: #ffffff;"></i>
-        <h3 class="my-5">INSTALAÇÃO E CONSERTO DE AR CONDICIONADO.</h3>
+
+        <h3 class="my-5 espaco-tx"><strong class="border-bottom">ESPECIALISTA</strong> EM INSTALAÇÃO E CONSERTO DE AR
+          CONDICIONADOS.</h3>
 
         <hr class="linha my-5">
 
@@ -84,16 +85,17 @@
 
         <hr class="linha my-3">
 
-        <section class="d-flex justify-content-center mb-5 shadow">
+        <section class="d-flex justify-content-center mb-5 ">
           <div class="col-10 col-md-5">
             <h2 class="mt-3 mb-5">Contato</h2>
 
             <!-- ----------------------  FORMULÁRIO -->
 
-            <form class="form-control fundo_form p-3" action="mailto:luciano_jet@hotmail.com">
+            <form class="form-control fundo_form p-3 shadow" action="mailto:luciano_jet@hotmail.com">
               <div class="mb-3">
                 <div class="form-floating mb-3">
-                  <input type="email" class="form-control nome" id="floatingInput telefone" placeholder="name@example.com" max>
+                  <input type="email" class="form-control nome" id="floatingInput telefone"
+                    placeholder="name@example.com" max>
                   <label for="floatingInput">Nome</label>
                 </div>
               </div>
@@ -111,8 +113,7 @@
                 <option value="Manutençã o">Manutenção</option>
               </select>
               <div class="form-floating">
-                <textarea class="form-control mensagem"
-                  id="floatingTextarea"></textarea>
+                <textarea class="form-control mensagem" id="floatingTextarea"></textarea>
                 <label for="floatingTextarea">Como Posso Ajudar?</label>
               </div>
               <a href="" class="btn fundo_padrao mt-4 px-4 fw-bold text-white shadow enviar-btn">Enviar</a>
@@ -130,7 +131,7 @@
 
     <section class="mx-lg-5 d-flex justify-content-lg-between justify-content-center gap-lg-0 gap-3 flex-wrap">
       <div class="mt-2">
-        <small class="text-white text-center mx-3">Todos os direitos reservados &copy; 2023</small>
+        <small class="text-white text-center mx-3">Todos os direitos reservados &copy;</small>
       </div>
 
       <!---------------------------------------------- ÍCONES REDES SOCIAIS -->
@@ -149,11 +150,9 @@
       </div>
     </section>
 
-
-
-    <button type="button" class="btn fundo_verde2 rounded text-white shadow-sm my-3" data-bs-toggle="modal"
+    <button type="button" class="btn fundo_verde2 rounded text-white shadow my-3 fonte_dev border border-white" data-bs-toggle="modal"
       data-bs-target="#exampleModal">
-      SOBRE OS DESENVOLVEDORES</button>
+      SOBRE O DESENVOLVEDOR</button>
 
   </footer>
 
@@ -162,28 +161,28 @@
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Desenvolvedores</h1>
+        <div class="modal-header fundo_padrao">
+          <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Desenvolvedores</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <table class="table">
-            <tbody>
-              <tr>
-                <td>Monhang Tech</td>
-                <td>monhangtech@gmail.com</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="flex-column text-center mt-3">
+            <div>
+              <img src="image/Logo-monhang.png" alt="" width="80px">
+            </div>
+            <p class="text-center mt-4">A <strong>Monhang Tech</strong> possui uma equipe de desenvolvedores apaixonados por
+              criar experiências excepcionais na web. De códigos elegantes a designs impressionantes, estamos aqui para
+              transformar suas ideias em realidade. Junte-se a nós nesta jornada emocionante e leve sua presença online
+              para o próximo nível. <br><br><strong>Vamos codificar o futuro juntos!</strong></p>
+            <a href="mailto:monhangtech@gmail.com" class="btn fundo_padrao text-white mt-3">Enviar e-mail</a>
+          </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
         </div>
       </div>
     </div>
   </div>
-
-
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

@@ -49,8 +49,15 @@
     background-size: 18px 18px;
 }
 
+.fonte_dev {
+    font-size: 10px;
+}
 
 .navbar-content {
     padding: 10px;
     color: #fff; /* Cor do texto */
+}
+
+.espaco-tx {
+    line-height: 1.5;
 }
